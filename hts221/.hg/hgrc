@@ -1,0 +1,4 @@
+[paths]
+default = https://mbed.org/teams/Nimbelink/code/hts221
+[ui]
+ignore.local = .hg/hgignore
