@@ -8,7 +8,7 @@ restIoT is simple web server (HTTPS only) running on embedded devices which are 
 ### mbed CLI
 
 This project is managed by mbed CLI. I recomend you to use it too. Instructions on mbed CLI installation
-can be found in its [repository](https://github.com/ARMmbed/mbed-cli#installing-mbed-cli).
+can be found in this [repository](https://github.com/ARMmbed/mbed-cli#installing-mbed-cli).
 
 ### Import this project by mbed CLI
 ```
