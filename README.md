@@ -17,16 +17,16 @@ mbed import https://github.com/spacive/restiot
 
 ### ARM GCC
 
-1. Download and unpack ARM GCC compiler to your favorite directory. You can download it [here](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm0). If you want, you can use other compilers supported by mbed OS, but only ARM GCC was tested.
+1. Download and unpack ARM GCC compiler to your favorite directory. You can download it [here](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm0). If you want, you can use other compilers supported by mbed OS, however, ARM GCC was tested only.
 
-2. set GCC ARM compiler path in restiot/mbed_settings.py
+2. Set GCC ARM compiler path in restiot/mbed_settings.py
 
 ### Generate certificate and key
 1. Change to restiot/cert directory
 ```
 cd restiot/cert
 ````
-2. generate certificate and key by running certgen.sh
+2. Generate certificate and key by running certgen.sh
 ```
 ./certgen.sh
 ````
