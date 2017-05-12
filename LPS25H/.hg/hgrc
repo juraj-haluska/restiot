@@ -1,4 +1,0 @@
-[paths]
-default = https://mbed.org/users/kenjiArai/code/LPS25H
-[ui]
-ignore.local = .hg/hgignore
