@@ -1,5 +1,8 @@
 #!/bin/bash
+DIR=".board"
 
-mount ${1} /mnt/nucleo
-cp ${2} /mnt/nucleo
-umount /mnt/nucleo
+mkdir $DIR
+mount ${1} $DIR
+cp ${2} $DIR
+umount $DIR
+rm -rf $DIR
