@@ -42,4 +42,4 @@ mbed compile -m [your_board] -t GCC_ARM
 1. Plug your board into USB
 2. Copy compiled file (restiot.bin somewhere in BUILD directory) to your board, or copy it by following script (invoke in restiot dir):
 ```
- sudo ./load /dev/sd[X] BUILD/[your_board]/GCC_ARM/restiot.bin
+ sudo ./load /dev/sdX BUILD/your_board/GCC_ARM/restiot.bin
