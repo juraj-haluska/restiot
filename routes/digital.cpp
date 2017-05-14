@@ -15,7 +15,7 @@ http_code_t ledRoute(method_t m, char * content, char * response) {
 			sprintf(response, "{\"led1\":%s,\"led2\":%s,\"led3\":%s}", TF(led1), TF(led2), TF(led3));
 			return _200_;
 		}
-		case POST: {
+		case PUT: {
 			bool v = false;
 				
 			if(jgetBool("led1", content, &v)) {
