@@ -2,6 +2,7 @@
 
 restIoT is simple web server (HTTPS only) running on embedded devices which are supported by mbed OS from ARM (Nucleo-F767ZI was used for development). The primary goal of this software is to expose board's functionality by REST API.
 Frontent application was developed in Angular2 and is available [here](https://github.com/spacive/restiot-front).
+Thesis presentation is [here](https://docs.google.com/presentation/d/1Q_GbiYjXs6qtgpCUG_tKK7hVaYQ6aeGqfpdrr_9Sp0k/edit?usp=sharing).
 
 ## How to run it
 
